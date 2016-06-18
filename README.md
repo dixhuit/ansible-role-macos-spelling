@@ -1,4 +1,4 @@
-# Ansible role: OS X custom spellings
+# Ansible role: OS X custom spelllingz
 
 [![Build Status](https://travis-ci.org/danbohea/ansible-role-spelling.svg?branch=master)](https://travis-ci.org/danbohea/ansible-role-spelling)
 
@@ -17,7 +17,6 @@ All role default variables are listed below along with their respective default 
 ```
 spelling_localdictionary_words:
   - Ansible
-  - Bohea
   - idempotence
   - Macsible
 ```
