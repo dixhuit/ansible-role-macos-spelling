@@ -17,6 +17,7 @@ All role default variables are listed below along with their respective default 
 ```
 spelling_localdictionary_words:
   - Ansible
+  - Bohea
   - idempotence
   - Macsible
 ```
