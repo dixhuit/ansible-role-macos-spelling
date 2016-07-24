@@ -2,7 +2,7 @@ dependencies: []
 
 galaxy_info:
   author: danbohea
-  description: Creates & populates a custom LocalDictionary file on macOS.
+  description: Manage a custom LocalDictionary file on macOS.
   license: MIT
   min_ansible_version: 2.0
   # In the absence of a 'macOS' platform option:
@@ -14,6 +14,7 @@ galaxy_info:
   galaxy_tags:
     - dictionary
     - mac
+    - macOS
     - macsible
     - osx
     - spelling
