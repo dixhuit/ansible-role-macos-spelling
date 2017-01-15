@@ -1,4 +1,4 @@
-# Ansible role: OS X custom spelllingz
+# Ansible role: macOS custom spelllingz
 
 [![Build Status](https://travis-ci.org/danbohea/ansible-role-spelling.svg?branch=master)](https://travis-ci.org/danbohea/ansible-role-spelling)
 
@@ -7,7 +7,7 @@ Creates & populates a custom LocalDictionary file on macOS.
 
 ## Requirements
 
-- macOS 10.9+
+- macOS 10.10, 10.11 or 10.12
 
 
 ## Role Variables
@@ -46,4 +46,4 @@ MIT
 
 ## Author Information
 
-This role was created by [Dan Bohea](http://bohea.co.uk) primarily for use with [Macsible](https://github.com/danbohea/macsible).
+This role was created by [Dan Bohea](http://bohea.co.uk) primarily for use with [Macsible](https://github.com/macsible/macsible).
