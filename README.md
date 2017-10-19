@@ -14,7 +14,7 @@ Creates & populates a custom LocalDictionary file on macOS.
 
 All role default variables are listed below along with their respective default values.
 
-```
+```yaml
 spelling_localdictionary_words:
   - Ansible
   - idempotence
@@ -31,7 +31,7 @@ None.
 
 ## Example Playbook
 
-```
+```yaml
 - hosts: macbook
   connection: local
 
