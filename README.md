@@ -7,7 +7,8 @@ Creates & populates a custom LocalDictionary file on macOS.
 
 ## Requirements
 
-- macOS 10.10, 10.11 or 10.12
+- Ansible >= 2.1
+- macOS 10.13, 10.12, 10.11 or 10.10
 
 
 ## Role Variables
