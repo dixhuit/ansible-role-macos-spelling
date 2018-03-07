@@ -37,7 +37,8 @@ None.
 - hosts: all
 
   roles:
-    - role: ansible-role-spelling
+    - role: ansible-role-macos-spelling
+
 ```
 
 ## License
