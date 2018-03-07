@@ -12,16 +12,17 @@ Creates & populates a custom LocalDictionary file on macOS.
 
 ## Role Variables
 
-All role default variables are listed below along with their respective default values.
-
 ```yaml
+
+# Words to add to the custom LocalDictionary file.
+# These do not have to be in alphabetical order
+# (the role will take care of sorting for you).
 spelling_localdictionary_words:
   - Ansible
   - idempotence
   - Macsible
-```
 
-Words to add to the custom LocalDictionary file. These do not have to be in alphabetical order (the role will take care of sorting for you).
+```
 
 
 ## Dependencies
@@ -32,8 +33,7 @@ None.
 ## Example Playbook
 
 ```yaml
-- hosts: macbook
-  connection: local
+- hosts: all
 
   roles:
     - role: ansible-role-spelling
