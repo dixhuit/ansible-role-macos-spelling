@@ -11,7 +11,7 @@ Creates & populates a custom LocalDictionary file on macOS.
 - macOS 10.13, 10.12, 10.11 or 10.10
 
 
-## Role Variables
+## Role variables
 
 ```yaml
 
@@ -31,7 +31,7 @@ spelling_localdictionary_words:
 None.
 
 
-## Example Playbook
+## Example playbook
 
 ```yaml
 - hosts: all
@@ -45,6 +45,6 @@ None.
 MIT
 
 
-## Author Information
+## Author information
 
 This role was created by [Dan Bohea](http://bohea.co.uk) primarily for use with [Macsible](https://github.com/macsible/macsible).
